@@ -38,4 +38,4 @@ def editar_tarefa(id_, tarefa):
     editado.titulo = tarefa.titulo or editado.titulo
     editado.descricao = tarefa.descricao or editado.descricao
     editado.status = tarefa.status
-return editado
+    return editado

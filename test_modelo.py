@@ -88,4 +88,4 @@ def test_editar_tarefa():
     memdb[tarefa.id] = tarefa
     modificado = Tarefa('titulo modificado', 'descricao')
     editar_tarefa(tarefa.id, modificado)
-assert memdb[tarefa.id].titulo == 'titulo modificado'
+    assert memdb[tarefa.id].titulo == 'titulo modificado'
